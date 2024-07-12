@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Hunter Thompson",
+        "email": "hunterthompson025@gmail.com"
+        // need to figure out how to store password "password": "testpassword"
+    },
+    {
+        "name": "Sal",
+        "email": "sal@hotmail.com"
+        // need to figure out how to store password "password": "testpassword"
+      },
+      {
+        "name": "Lernantino",
+        "email": "lernantino@gmail.com"
+        // need to figure out how to store password "password": "testpassword"
+      },
+      {
+        "name": "Amiko",
+        "email": "amiko2k20@aol.com"
+       // need to figure out how to store password "password": "testpassword"
+      }
+]
