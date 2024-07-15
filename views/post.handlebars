@@ -11,10 +11,10 @@
   </form>
   <div id="comments-container">
     {{#each comments}}
-      <div class="comment">
-        <p>{{this.comment_text}}</p>
-        <p><small>Posted by {{this.user.name}} on {{format_date this.createdAt}}</small></p>
-      </div>
+    <div class="comment">
+      <p>{{this.comment_text}}</p>
+      <p><small>Posted by {{this.user.name}} on {{format_date this.createdAt}}</small></p>
+    </div>
     {{/each}}
   </div>
 </div>
