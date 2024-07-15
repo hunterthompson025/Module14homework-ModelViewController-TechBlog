@@ -28,7 +28,7 @@ function newComment() {
         const newComment = await response.json();
         displayNewComment(newComment);
         commentForm.style.display = 'none';
-        document.getElementById('comment-text').value = ''; // Clear the textarea
+        document.getElementById('comment-text').value = ''; 
       } else {
         alert('Failed to add comment');
       }
@@ -55,5 +55,4 @@ function displayNewComment(comment) {
   commentsContainer.appendChild(newCommentDiv);
 }
 
-// Ensure the DOM is fully loaded before setting up the comment interaction
 document.addEventListener('DOMContentLoaded', newComment);
